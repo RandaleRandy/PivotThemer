@@ -1,0 +1,102 @@
+﻿[
+  {
+    "themeIdentifier": "EditorBackground",
+    "eclipseIdentifier": "com.sap.adt.tools.abapsource.ui.abapMethodBackground"
+  },
+  {
+    "themeIdentifier": "EditorMethodBackground",
+    "eclipseIdentifier": "com.sap.adt.tools.abapsource.ui.abapMethodBackground"
+  },
+  {
+    "themeIdentifier": "EditorFontColor",
+    "eclipseIdentifier": "com.sap.adt.tools.abapsource.ui.default"
+  },
+  {
+    "themeIdentifier": "EditorKeywordFontColor",
+    "eclipseIdentifier": "com.sap.adt.tools.abapsource.ui.keyword"
+  },
+  {
+    "themeIdentifier": "EditorCommentFontColor",
+    "eclipseIdentifier": "com.sap.adt.tools.abapsource.ui.comment"
+  },
+  {
+    "themeIdentifier": "UIBackgroundColor",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.DARK_BACKGROUND"
+  },
+  {
+    "themeIdentifier": "UITextColor",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.DARK_FOREGROUND"
+  },
+  {
+    "themeIdentifier": "UIActiveTabBackgroundColor",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.ACTIVE_TAB_BG_END"
+  },
+  {
+    "themeIdentifier": "UIActiveTabTextColor",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.ACTIVE_TAB_SELECTED_TEXT_COLOR"
+  },
+  {
+    "themeIdentifier": "UIActiveTabTextColor",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_SELECTED_TEXT_COLOR"
+  },
+  {
+    "themeIdentifier": "UIInactiveTabBackgroundColor",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.ACTIVE_UNSELECTED_TABS_COLOR_END"
+  },
+  {
+    "themeIdentifier": "UIInactiveTabBackgroundColor",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.ACTIVE_UNSELECTED_TABS_COLOR_START"
+  },
+  {
+    "themeIdentifier": "UIInactiveTabBackgroundColor",
+    "eclipseIdentifier": "org.eclipse.ui.workbench.ACTIVE_TAB_BG_START"
+  },
+  {
+    "themeIdentifier": "UIInactiveTabTextColor",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.ACTIVE_TAB_UNSELECTED_TEXT_COLOR"
+  },
+  {
+    "themeIdentifier": "UIInnerBorderStrokeColor",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.ACTIVE_TAB_INNER_KEYLINE_COLOR"
+  },
+  {
+    "themeIdentifier": "UIOuterBorderStrokeColor",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.ACTIVE_TAB_OUTER_KEYLINE_COLOR"
+  },
+  {
+    "themeIdentifier": "UILinkTextColor",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.LINK_COLOR"
+  },
+  {
+    "themeIdentifier": "ViewActiveTabBackgroundColor",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_END"
+  },
+  {
+    "themeIdentifier": "ViewActiveTabBackgroundColor",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_START"
+  },
+  {
+    "themeIdentifier": "ViewActiveTabBackgroundColor",
+    "eclipseIdentifier": "org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_END"
+  },
+  {
+    "themeIdentifier": "ViewActiveTabBackgroundColor",
+    "eclipseIdentifier": "org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_START"
+  },
+  {
+    "themeIdentifier": "ViewBorderStroke",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.ACTIVE_TAB_OUTLINE_COLOR"
+  },
+  {
+    "themeIdentifier": "ViewInactiveTabTextColor",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.INACTIVE_TAB_SELECTED_TEXT_COLOR"
+  },
+  {
+    "themeIdentifier": "ViewInactiveTabUnselectedTextColor",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.INACTIVE_TAB_UNSELECTED_TEXT_COLOR"
+  },
+  {
+    "themeIdentifier": "ViewChildTabInactiveBackgroundColor",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.INACTIVE_TAB_OUTLINE_COLOR"
+  }
+]

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EclipseThemer", "EclipseThemer\EclipseThemer.csproj", "{8C03DE38-8F4C-4A16-9F42-747CD50F62BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EclipseConfig", "EclipseConfig\EclipseConfig.csproj", "{638C9A24-51F3-457F-B3EB-C1E1F766C1BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThemerTests", "ThemerTests\ThemerTests.csproj", "{4D222502-B909-4CE1-A708-658FABE3DC42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThemerCore", "ThemerCore\ThemerCore.csproj", "{009FA0F8-60DB-4329-A7ED-3D91EBCF467B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C03DE38-8F4C-4A16-9F42-747CD50F62BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C03DE38-8F4C-4A16-9F42-747CD50F62BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C03DE38-8F4C-4A16-9F42-747CD50F62BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C03DE38-8F4C-4A16-9F42-747CD50F62BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{638C9A24-51F3-457F-B3EB-C1E1F766C1BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{638C9A24-51F3-457F-B3EB-C1E1F766C1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{638C9A24-51F3-457F-B3EB-C1E1F766C1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{638C9A24-51F3-457F-B3EB-C1E1F766C1BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D222502-B909-4CE1-A708-658FABE3DC42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D222502-B909-4CE1-A708-658FABE3DC42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D222502-B909-4CE1-A708-658FABE3DC42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D222502-B909-4CE1-A708-658FABE3DC42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{009FA0F8-60DB-4329-A7ED-3D91EBCF467B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{009FA0F8-60DB-4329-A7ED-3D91EBCF467B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{009FA0F8-60DB-4329-A7ED-3D91EBCF467B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{009FA0F8-60DB-4329-A7ED-3D91EBCF467B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
