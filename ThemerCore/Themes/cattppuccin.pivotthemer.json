@@ -1,0 +1,84 @@
+{
+  "PrimarySurface": {
+    "hex" : "#363a4f"
+  },
+  "SecondarySurface": {
+    "hex" : "#494d64"
+  },
+  "TertiarySurface": {
+    "hex" : "#5b6078"
+  },
+  "PrimaryOverlay":{
+    "hex" : "#6e738d"
+  },
+  "SecondaryOverlay":{
+    "hex" : "#8087a2"
+  },
+  "TertiaryOverlay":{
+    "hex" : "#939ab7"
+  },
+  "PrimarySubtext":{
+    "hex" : "#a5adcb"
+  },
+  "SecondarySubtext":{
+    "hex" : "#b8c0e0"
+  },
+  "Text":{
+    "hex": "#cad3f5"
+  },
+  "Accent":{
+    "hex": "#f0c6c6"
+  },
+  "Keyword":{
+    "hex":""
+  },
+  "StringLiterals":{
+    "hex": ""
+  },
+  "EscapeSequences":{
+    "hex":""
+  },
+  "Comments":{
+    "hex":""
+  },
+  "Constants":{
+    "hex": ""
+  },
+  "Operators":{
+    "hex": ""
+  },
+  "Braces":{
+    "hex": ""
+  },
+  "Methods":{
+    "hex": ""
+  },
+  "Parameters":{
+    "hex": ""
+  },
+  "Classes":{
+    "hex":""
+  },
+  "Cursor":{
+    "hex":""
+  },
+  "UnfollowedLink":{
+    "hex":""
+  },
+  "FollowedLink":{
+    "hex":""
+  },
+  "LinkHover":{
+    "hex":""
+  },
+  "Errors":{
+    "hex":""
+  },
+  "Warnings":{
+    "hex":""
+  },
+  "Information":{
+    "hex":""
+  }
+
+}

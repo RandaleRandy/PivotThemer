@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # 
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EclipseThemer", "EclipseThemer\EclipseThemer.csproj", "{8C03DE38-8F4C-4A16-9F42-747CD50F62BD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EclipseConfig", "EclipseConfig\EclipseConfig.csproj", "{638C9A24-51F3-457F-B3EB-C1E1F766C1BA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThemerTests", "ThemerTests\ThemerTests.csproj", "{4D222502-B909-4CE1-A708-658FABE3DC42}"
