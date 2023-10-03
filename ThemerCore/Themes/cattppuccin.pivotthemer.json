@@ -1,84 +1,110 @@
-{
-  "PrimarySurface": {
-    "hex" : "#363a4f"
+[
+  {
+    "name": "PrimarySurface",
+    "hex": "#363a4f"
   },
-  "SecondarySurface": {
-    "hex" : "#494d64"
+  {
+    "name": "SecondarySurface",
+    "hex": "#494d64"
   },
-  "TertiarySurface": {
-    "hex" : "#5b6078"
+  {
+    "name": "TertiarySurface",
+    "hex": "#5b6078"
   },
-  "PrimaryOverlay":{
-    "hex" : "#6e738d"
+  {
+    "name": "PrimaryOverlay",
+    "hex": "#6e738d"
   },
-  "SecondaryOverlay":{
-    "hex" : "#8087a2"
+  {
+    "name": "SecondaryOverlay",
+    "hex": "#8087a2"
   },
-  "TertiaryOverlay":{
-    "hex" : "#939ab7"
+  {
+    "name": "TertiaryOverlay",
+    "hex": "#939ab7"
   },
-  "PrimarySubtext":{
-    "hex" : "#a5adcb"
+  {
+    "name": "PrimarySubtext",
+    "hex": "#a5adcb"
   },
-  "SecondarySubtext":{
-    "hex" : "#b8c0e0"
+  {
+    "name": "SecondarySubtext",
+    "hex": "#b8c0e0"
   },
-  "Text":{
+  {
+    "name": "Text",
     "hex": "#cad3f5"
   },
-  "Accent":{
+  {
+    "name": "Accent",
     "hex": "#f0c6c6"
   },
-  "Keyword":{
-    "hex":""
-  },
-  "StringLiterals":{
+  {
+    "name": "Keyword",
     "hex": ""
   },
-  "EscapeSequences":{
-    "hex":""
-  },
-  "Comments":{
-    "hex":""
-  },
-  "Constants":{
+  {
+    "name": "StringLiterals",
     "hex": ""
   },
-  "Operators":{
+  {
+    "name": "EscapeSequences",
     "hex": ""
   },
-  "Braces":{
+  {
+    "name": "Comments",
     "hex": ""
   },
-  "Methods":{
+  {
+    "name": "Constants",
     "hex": ""
   },
-  "Parameters":{
+  {
+    "name": "Operators",
     "hex": ""
   },
-  "Classes":{
-    "hex":""
+  {
+    "name": "Braces",
+    "hex": ""
   },
-  "Cursor":{
-    "hex":""
+  {
+    "name": "Methods",
+    "hex": ""
   },
-  "UnfollowedLink":{
-    "hex":""
+  {
+    "name": "Parameters",
+    "hex": ""
   },
-  "FollowedLink":{
-    "hex":""
+  {
+    "name": "Classes",
+    "hex": ""
   },
-  "LinkHover":{
-    "hex":""
+  {
+    "name": "Cursor",
+    "hex": ""
   },
-  "Errors":{
-    "hex":""
+  {
+    "name": "UnfollowedLink",
+    "hex": ""
   },
-  "Warnings":{
-    "hex":""
+  {
+    "name": "FollowedLink",
+    "hex": ""
   },
-  "Information":{
-    "hex":""
+  {
+    "name": "LinkHover",
+    "hex": ""
+  },
+  {
+    "name": "Errors",
+    "hex": ""
+  },
+  {
+    "name": "Warnings",
+    "hex": ""
+  },
+  {
+    "name": "Information",
+    "hex": ""
   }
-
-}
+]
