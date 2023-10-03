@@ -11,7 +11,7 @@ public class ThemeLoader{
     }
 
     public void LoadTheme(string themeName){
-        _theme = File.ReadAllText($"./Themes/{themeName}.json");
+        _theme = File.ReadAllText($"./Themes/{themeName}.pivotthemer.json");
     }
 
 }

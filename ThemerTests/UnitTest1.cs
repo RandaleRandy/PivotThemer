@@ -5,7 +5,7 @@ namespace ThemerTests;
 
 public class Tests
 {
-    private ConfigManager cut;
+    private ConfigManager? cut;
     private List<ThemeModel> _themeModels;
     [SetUp]
     public void Setup()
@@ -25,12 +25,15 @@ public class Tests
         _themeModels = JsonSerializer.Deserialize<List<ThemeModel>>(File.ReadAllText("C:\\Users\\Stefan\\RiderProjects\\EclipseThemer\\EclipseConfig\\Configuration\\Catppuccin.json")) ?? new();
     }
 
+    /// <summary>
+    /// Tests the activation of a theme by updating the theme models.
+    /// </summary>
     [Test]
     public void ActivateTheme()
     {
         try
         {
-            cut.UpdateTheme(_themeModels);
+            cut!.UpdateTheme(_themeModels);
         }
         catch
         {
@@ -42,7 +45,7 @@ public class Tests
     {
         try
         {
-            cut.TintNotDefined("255,0,255", _themeModels);
+            cut!.TintNotDefined("255,0,255", _themeModels);
         }
         catch
         {
