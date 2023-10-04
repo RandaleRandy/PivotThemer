@@ -1,5 +1,4 @@
 ﻿using System.Text.Json;
-using System.Text.RegularExpressions;
 using ThemerCore;
 
 namespace EclipsePrefsReader;
@@ -21,17 +20,18 @@ public class ConfigManager
     }
     public void UpdateTheme(string themeName, bool appendNonExistant = true)
     {
-        var themeMapping = _loader.GetThemeMapping(themeName);
+        var themeMapping = _loader.GetTheme(themeName);
 
         if (_themeToEclipseMappings.Count == 0) 
             throw new FileNotFoundException("No mappings found");
         var prefs = _reader.Read();
         foreach (var themeEclipseMapping in _themeToEclipseMappings)
         {
-            string themeValue = string.Empty;
-            if (themeMapping.ContainsKey(themeEclipseMapping.themeIdentifier)){
-                themeValue = themeMapping[themeEclipseMapping.themeIdentifier];
-            }
+            string themeValue;
+            var propertyInfo = typeof(ThemeModel).GetProperty(themeEclipseMapping.themeIdentifier);
+            if(propertyInfo == null)
+                continue;
+            themeValue = propertyInfo.GetValue(themeMapping)!.ToString()!;
             if(string.IsNullOrEmpty(themeValue)){
                 continue;
             }
@@ -44,7 +44,6 @@ public class ConfigManager
                 prefs[themeEclipseMapping.eclipseIdentifier] = themeValue;
             }
         }
-        
         _writer.Write(prefs);
     }
 

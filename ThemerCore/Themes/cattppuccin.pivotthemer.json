@@ -1,110 +1,29 @@
-[
-  {
-    "name": "PrimarySurface",
-    "hex": "#363a4f"
-  },
-  {
-    "name": "SecondarySurface",
-    "hex": "#494d64"
-  },
-  {
-    "name": "TertiarySurface",
-    "hex": "#5b6078"
-  },
-  {
-    "name": "PrimaryOverlay",
-    "hex": "#6e738d"
-  },
-  {
-    "name": "SecondaryOverlay",
-    "hex": "#8087a2"
-  },
-  {
-    "name": "TertiaryOverlay",
-    "hex": "#939ab7"
-  },
-  {
-    "name": "PrimarySubtext",
-    "hex": "#a5adcb"
-  },
-  {
-    "name": "SecondarySubtext",
-    "hex": "#b8c0e0"
-  },
-  {
-    "name": "Text",
-    "hex": "#cad3f5"
-  },
-  {
-    "name": "Accent",
-    "hex": "#f0c6c6"
-  },
-  {
-    "name": "Keyword",
-    "hex": ""
-  },
-  {
-    "name": "StringLiterals",
-    "hex": ""
-  },
-  {
-    "name": "EscapeSequences",
-    "hex": ""
-  },
-  {
-    "name": "Comments",
-    "hex": ""
-  },
-  {
-    "name": "Constants",
-    "hex": ""
-  },
-  {
-    "name": "Operators",
-    "hex": ""
-  },
-  {
-    "name": "Braces",
-    "hex": ""
-  },
-  {
-    "name": "Methods",
-    "hex": ""
-  },
-  {
-    "name": "Parameters",
-    "hex": ""
-  },
-  {
-    "name": "Classes",
-    "hex": ""
-  },
-  {
-    "name": "Cursor",
-    "hex": ""
-  },
-  {
-    "name": "UnfollowedLink",
-    "hex": ""
-  },
-  {
-    "name": "FollowedLink",
-    "hex": ""
-  },
-  {
-    "name": "LinkHover",
-    "hex": ""
-  },
-  {
-    "name": "Errors",
-    "hex": ""
-  },
-  {
-    "name": "Warnings",
-    "hex": ""
-  },
-  {
-    "name": "Information",
-    "hex": ""
-  }
-]
+{
+  "PrimarySurface" : "#363a4f",
+  "SecondarySurface" : "#494d64",
+  "TertiarySurface" : "#5b6078",
+  "PrimaryOverlay" : "#6e738d",
+  "SecondaryOverlay" : "#8087a2",
+  "TertiaryOverlay" : "#939ab7",
+  "PrimarySubtext" : "#a5adcb",
+  "SecondarySubtext" : "#b8c0e0",
+  "Text" : "#cad3f5",
+  "Accent" : "#f0c6c6",
+  "Keyword" : "",
+  "StringLiterals" : "",
+  "EscapeSequences" : "",
+  "Comments" : "",
+  "Constants" : "",
+  "Operators" : "",
+  "Braces" : "",
+  "Methods" : "",
+  "Parameters" : "",
+  "Classes" : "",
+  "Cursor" : "",
+  "UnfollowedLink" : "",
+  "FollowedLink" : "",
+  "LinkHover" : "",
+  "Errors" : "",
+  "Warnings" : "",
+  "Information" : ""
+}

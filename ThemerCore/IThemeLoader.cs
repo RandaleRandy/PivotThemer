@@ -1,5 +1,5 @@
 namespace ThemerCore;
 public interface IThemeLoader
 {
-    public Dictionary<string, string> GetThemeMapping(string themeName);
+    public ThemeModel GetTheme(string themeName);
 }

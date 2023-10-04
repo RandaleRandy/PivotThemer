@@ -7,11 +7,11 @@ using ThemerCore;
 public class ThemeLoader : IThemeLoader{
 
 
-    public Dictionary<string, string> GetThemeMapping(string themeName)
+    public ThemeModel GetTheme(string themeName)
     {
         themeName = themeName.ToLower();
         var themeMappingText = File.ReadAllText($"./Themes/${themeName}.pivotthemer.json");
-        var themeMapping = JsonSerializer.Deserialize<Dictionary<string, string>>(themeMappingText);
+        var themeMapping = JsonSerializer.Deserialize<ThemeModel>(themeMappingText);
 
         if (themeMapping == null)
             throw new Exception($"Themefile did not parse. Check ${themeName}.pivotthemer.json");
