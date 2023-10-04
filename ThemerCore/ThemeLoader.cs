@@ -1,17 +1,22 @@
 
 
-public class ThemeLoader{
+using System.Runtime.Serialization;
+using System.Text.Json;
+using ThemerCore;
 
-    private string _themeName;
-    private string _theme;
+public class ThemeLoader : IThemeLoader{
 
 
-    public ThemeLoader(){
+    public Dictionary<string, string> GetThemeMapping(string themeName)
+    {
+        themeName = themeName.ToLower();
+        var themeMappingText = File.ReadAllText($"./Themes/${themeName}.pivotthemer.json");
+        var themeMapping = JsonSerializer.Deserialize<Dictionary<string, string>>(themeMappingText);
 
-    }
+        if (themeMapping == null)
+            throw new Exception($"Themefile did not parse. Check ${themeName}.pivotthemer.json");
 
-    public void LoadTheme(string themeName){
-        _theme = File.ReadAllText($"./Themes/{themeName}.pivotthemer.json");
+        return themeMapping;
     }
 
 }

@@ -1,4 +1,5 @@
 using EclipsePrefsReader;
+using System.Security.AccessControl;
 using System.Text.Json;
 using ThemerTests.Configuration;
 
@@ -7,21 +8,22 @@ namespace ThemerTests;
 public class Tests
 {
     private ConfigManager? cut;
+
     [SetUp]
     public void Setup()
-    {
-        // read the configuration file in ./Configuration
+    {        
+        
         var locationsText = File.ReadAllText("./Configuration/Locations.json");
-        var locations = JsonSerializer.Deserialize<List<Locations>>(locationsText);
-        if ( locations == null) 
-            throw new FileNotFoundException();
-            
-        if(Environment.OSVersion.Platform == PlatformID.Win32NT)
-            cut = new ConfigManager( locations.Single( x => x.PlatformID == PlatformID.Win32NT.ToString()).EclipseWorkbenchPath );
+        var locations = JsonSerializer.Deserialize<List<Locations>>(locationsText) ?? throw new FileNotFoundException();
+
+        var themeLoader = new ThemeLoader();
+
+        if (Environment.OSVersion.Platform == PlatformID.Win32NT)
+            cut = new ConfigManager( locations.Single( x => x.PlatformID == PlatformID.Win32NT.ToString()).EclipseWorkbenchPath, themeLoader );
         else if(Environment.OSVersion.Platform == PlatformID.Unix)
-            cut = new ConfigManager( locations.Single( x => x.PlatformID == PlatformID.Unix.ToString()).EclipseWorkbenchPath);
+            cut = new ConfigManager( locations.Single( x => x.PlatformID == PlatformID.Unix.ToString()).EclipseWorkbenchPath, themeLoader);
         else if(Environment.OSVersion.Platform == PlatformID.Other)
-            cut = new ConfigManager( locations.Single( x => x.PlatformID == PlatformID.Other.ToString()).EclipseWorkbenchPath);
+            cut = new ConfigManager( locations.Single( x => x.PlatformID == PlatformID.Other.ToString()).EclipseWorkbenchPath, themeLoader);
         else
             throw new Exception("OS not supported"
             );
@@ -35,6 +37,7 @@ public class Tests
     {
         try
         {
+            cut!.UpdateTheme("Catppuccin");
             // cut!.UpdateTheme(_themeModels);
         }
         catch

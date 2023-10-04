@@ -18,6 +18,12 @@
     </ItemGroup>
 
     <ItemGroup>
+      <None Update="Configuration\Locations.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
       <ProjectReference Include="..\EclipseConfig\EclipseConfig.csproj" />
     </ItemGroup>
 
