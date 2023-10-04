@@ -40,8 +40,9 @@ public class Tests
             cut!.UpdateTheme("Catppuccin");
             // cut!.UpdateTheme(_themeModels);
         }
-        catch
+        catch(Exception ex)
         {
+            Console.WriteLine(ex.Message);
             Assert.Fail();
         }
     }
