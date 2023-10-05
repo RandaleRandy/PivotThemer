@@ -1,4 +1,6 @@
-﻿namespace EclipsePrefsReader;
+﻿using System.Text.Json;
+
+namespace EclipsePrefsReader;
 
 public class PrefWriter
 {
@@ -17,13 +19,9 @@ public class PrefWriter
         }
         File.WriteAllLines(_absolutePath, lines);
     }
-    public void WriteToConfigurationFolder(Dictionary<string, string> prefs){
-        var lines = new List<string>();
-        foreach (var (key, value) in prefs)
-        {
-            lines.Add($"{key}={value}");
-        }
+    public void WriteToConfigurationFolder(List<ThemeToEclipseMapping> prefs){
+        var prefsSerialized = JsonSerializer.Serialize(prefs, options: new(){ WriteIndented = true });
         var filepath = Path.GetFullPath("./Configuration/unconfigured.eclipse.json");
-        File.WriteAllLines(filepath, lines);
+        File.WriteAllText(filepath, prefsSerialized);
     }
 }

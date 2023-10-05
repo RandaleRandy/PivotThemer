@@ -25,15 +25,18 @@ public class ConfigManager
     public void SaveAllUndefined(){
         var rgbValueRegex = new Regex(@"[0-9]{1,3}\,[0-9]{1,3}\,[0-9]{1,3}", RegexOptions.Compiled);
         var prefs = _reader.Read();
-        var undefinedValues = new Dictionary<string, string>();
+        var undefinedValues = new List<ThemeToEclipseMapping>();
+        // var undefinedValues = new Dictionary<string, string>();
         foreach (var pref in prefs)
         {
+            if(string.IsNullOrEmpty(pref.Key))
+                continue;
             var eclipseMapping = _themeToEclipseMappings.FirstOrDefault(x => x.eclipseIdentifier == pref.Key);
             if (eclipseMapping != null)
                 continue;
             if (rgbValueRegex.IsMatch(pref.Value)){
                 // undefined rgb configuration value found
-                undefinedValues.Add(pref.Key, pref.Value);
+                undefinedValues.Add(new (){ eclipseIdentifier = pref.Key, themeIdentifier = string.Empty });
             }
         }
         _writer.WriteToConfigurationFolder(undefinedValues);
