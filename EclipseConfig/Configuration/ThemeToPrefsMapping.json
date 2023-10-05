@@ -1,102 +1,102 @@
 ﻿[
   {
-    "themeIdentifier": "EditorBackground",
+    "themeIdentifier": "PrimarySurface",
     "eclipseIdentifier": "com.sap.adt.tools.abapsource.ui.abapMethodBackground"
   },
   {
-    "themeIdentifier": "EditorMethodBackground",
+    "themeIdentifier": "SecondarySurface",
     "eclipseIdentifier": "com.sap.adt.tools.abapsource.ui.abapMethodBackground"
   },
   {
-    "themeIdentifier": "EditorFontColor",
+    "themeIdentifier": "Text",
     "eclipseIdentifier": "com.sap.adt.tools.abapsource.ui.default"
   },
   {
-    "themeIdentifier": "EditorKeywordFontColor",
+    "themeIdentifier": "Keyword",
     "eclipseIdentifier": "com.sap.adt.tools.abapsource.ui.keyword"
   },
   {
-    "themeIdentifier": "EditorCommentFontColor",
+    "themeIdentifier": "Comments",
     "eclipseIdentifier": "com.sap.adt.tools.abapsource.ui.comment"
   },
   {
-    "themeIdentifier": "UIBackgroundColor",
+    "themeIdentifier": "PrimarySurface",
     "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.DARK_BACKGROUND"
   },
   {
-    "themeIdentifier": "UITextColor",
+    "themeIdentifier": "Text",
     "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.DARK_FOREGROUND"
   },
   {
-    "themeIdentifier": "UIActiveTabBackgroundColor",
+    "themeIdentifier": "SecondarySurface",
     "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.ACTIVE_TAB_BG_END"
   },
   {
-    "themeIdentifier": "UIActiveTabTextColor",
+    "themeIdentifier": "SecondarySurface",
     "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.ACTIVE_TAB_SELECTED_TEXT_COLOR"
   },
   {
-    "themeIdentifier": "UIActiveTabTextColor",
+    "themeIdentifier": "SecondarySurface",
     "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_SELECTED_TEXT_COLOR"
   },
   {
-    "themeIdentifier": "UIInactiveTabBackgroundColor",
+    "themeIdentifier": "TertiarySurface",
     "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.ACTIVE_UNSELECTED_TABS_COLOR_END"
   },
   {
-    "themeIdentifier": "UIInactiveTabBackgroundColor",
+    "themeIdentifier": "TertiarySurface",
     "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.ACTIVE_UNSELECTED_TABS_COLOR_START"
   },
   {
-    "themeIdentifier": "UIInactiveTabBackgroundColor",
+    "themeIdentifier": "TertiarySurface",
     "eclipseIdentifier": "org.eclipse.ui.workbench.ACTIVE_TAB_BG_START"
   },
   {
-    "themeIdentifier": "UIInactiveTabTextColor",
+    "themeIdentifier": "SecondarySubtext",
     "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.ACTIVE_TAB_UNSELECTED_TEXT_COLOR"
   },
   {
-    "themeIdentifier": "UIInnerBorderStrokeColor",
+    "themeIdentifier": "TertiaryOverlay",
     "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.ACTIVE_TAB_INNER_KEYLINE_COLOR"
   },
   {
-    "themeIdentifier": "UIOuterBorderStrokeColor",
+    "themeIdentifier": "TertiaryOverlay",
     "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.ACTIVE_TAB_OUTER_KEYLINE_COLOR"
   },
   {
-    "themeIdentifier": "UILinkTextColor",
+    "themeIdentifier": "UnfollowedLink",
     "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.LINK_COLOR"
   },
   {
-    "themeIdentifier": "ViewActiveTabBackgroundColor",
+    "themeIdentifier": "SecondarySurface",
     "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_END"
   },
   {
-    "themeIdentifier": "ViewActiveTabBackgroundColor",
+    "themeIdentifier": "SecondarySurface",
     "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_START"
   },
   {
-    "themeIdentifier": "ViewActiveTabBackgroundColor",
+    "themeIdentifier": "SecondarySurface",
     "eclipseIdentifier": "org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_END"
   },
   {
-    "themeIdentifier": "ViewActiveTabBackgroundColor",
+    "themeIdentifier": "SecondarySurface",
     "eclipseIdentifier": "org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_START"
   },
   {
-    "themeIdentifier": "ViewBorderStroke",
+    "themeIdentifier": "SecondaryOverlay",
     "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.ACTIVE_TAB_OUTLINE_COLOR"
   },
   {
-    "themeIdentifier": "ViewInactiveTabTextColor",
+    "themeIdentifier": "SecondarySubtext",
     "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.INACTIVE_TAB_SELECTED_TEXT_COLOR"
   },
   {
-    "themeIdentifier": "ViewInactiveTabUnselectedTextColor",
+    "themeIdentifier": "SecondarySubtext",
     "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.INACTIVE_TAB_UNSELECTED_TEXT_COLOR"
   },
   {
-    "themeIdentifier": "ViewChildTabInactiveBackgroundColor",
+    "themeIdentifier": "TertiarySurface",
     "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.INACTIVE_TAB_OUTLINE_COLOR"
   }
 ]
