@@ -35,27 +35,15 @@ public class Tests
     [Test]
     public void ActivateTheme()
     {
-        try
-        {
-            cut!.UpdateTheme("Catppuccin");
-            // cut!.UpdateTheme(_themeModels);
-        }
-        catch(Exception ex)
-        {
-            Console.WriteLine(ex.Message);
-            Assert.Fail();
-        }
+        cut!.UpdateTheme("Catppuccin");
+    }
+    [Test]
+    public void SaveUndefined(){
+        cut!.SaveAllUndefined();
     }
     [Test]
     public void TintNotDefined()
     {
-        try
-        {
-            // cut!.TintNotDefined("255,0,255", _themeModels);
-        }
-        catch
-        {
-            Assert.Fail();
-        }
+        // cut!.TintNotDefined("255,0,255", _themeModels);
     }
 }

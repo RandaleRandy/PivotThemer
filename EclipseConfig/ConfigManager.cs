@@ -2,6 +2,7 @@
 using System.Globalization;
 using ThemerCore;
 using System.Drawing;
+using System.Text.RegularExpressions;
 
 namespace EclipsePrefsReader;
 
@@ -20,6 +21,24 @@ public class ConfigManager
         var mappingContent = File.ReadAllText("./Configuration/ThemeToPrefsMapping.json");
         _themeToEclipseMappings = JsonSerializer.Deserialize<List<ThemeToEclipseMapping>>(mappingContent) ?? new List<ThemeToEclipseMapping>();
     }
+
+    public void SaveAllUndefined(){
+        var rgbValueRegex = new Regex(@"[0-9]{1,3}\,[0-9]{1,3}\,[0-9]{1,3}", RegexOptions.Compiled);
+        var prefs = _reader.Read();
+        var undefinedValues = new Dictionary<string, string>();
+        foreach (var pref in prefs)
+        {
+            var eclipseMapping = _themeToEclipseMappings.FirstOrDefault(x => x.eclipseIdentifier == pref.Key);
+            if (eclipseMapping != null)
+                continue;
+            if (rgbValueRegex.IsMatch(pref.Value)){
+                // undefined rgb configuration value found
+                undefinedValues.Add(pref.Key, pref.Value);
+            }
+        }
+        _writer.WriteToConfigurationFolder(undefinedValues);
+    }
+
     public void UpdateTheme(string themeName, bool appendNonExistant = true)
     {
         var themeMapping = _loader.GetTheme(themeName);
