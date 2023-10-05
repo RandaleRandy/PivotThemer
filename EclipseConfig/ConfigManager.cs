@@ -53,13 +53,6 @@ public class ConfigManager
     private static string ConvertHexToRgbString(string themeValueHex)
     {
         var color = ColorTranslator.FromHtml(themeValueHex);
-        // if(themeValueHex.Contains('#')){
-        //     themeValueHex = themeValueHex.Replace("#", "");
-        // }
-        // var redValue = int.Parse(themeValueHex.Substring(0, 1), NumberStyles.HexNumber);
-        // var greenValue = int.Parse(themeValueHex.Substring(2,3), NumberStyles.HexNumber);
-        // var blueValue = int.Parse(themeValueHex.Substring(4,5), NumberStyles.HexNumber);
-
         return $"{color.R},{color.G},{color.B}";
 
     }
