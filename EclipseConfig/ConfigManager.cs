@@ -1,5 +1,7 @@
 ﻿using System.Text.Json;
+using System.Globalization;
 using ThemerCore;
+using System.Drawing;
 
 namespace EclipsePrefsReader;
 
@@ -27,24 +29,39 @@ public class ConfigManager
         var prefs = _reader.Read();
         foreach (var themeEclipseMapping in _themeToEclipseMappings)
         {
-            string themeValue;
+            string themeValueHex;
             var propertyInfo = typeof(ThemeModel).GetProperty(themeEclipseMapping.themeIdentifier);
             if(propertyInfo == null)
                 continue;
-            themeValue = propertyInfo.GetValue(themeMapping)!.ToString()!;
-            if(string.IsNullOrEmpty(themeValue)){
+            themeValueHex = propertyInfo.GetValue(themeMapping)!.ToString()!;
+            if(string.IsNullOrEmpty(themeValueHex)){
                 continue;
             }
+            var themeValueRgb = ConvertHexToRgbString(themeValueHex);
 
             var eclipseValueExists = prefs.ContainsKey(themeEclipseMapping.eclipseIdentifier);
             if (!eclipseValueExists && appendNonExistant)
-                prefs.Add(themeEclipseMapping.eclipseIdentifier, themeValue);
+                prefs.Add(themeEclipseMapping.eclipseIdentifier, themeValueRgb);
             if (eclipseValueExists)
             {
-                prefs[themeEclipseMapping.eclipseIdentifier] = themeValue;
+                prefs[themeEclipseMapping.eclipseIdentifier] = themeValueRgb;
             }
         }
         _writer.Write(prefs);
+    }
+
+    private static string ConvertHexToRgbString(string themeValueHex)
+    {
+        var color = ColorTranslator.FromHtml(themeValueHex);
+        // if(themeValueHex.Contains('#')){
+        //     themeValueHex = themeValueHex.Replace("#", "");
+        // }
+        // var redValue = int.Parse(themeValueHex.Substring(0, 1), NumberStyles.HexNumber);
+        // var greenValue = int.Parse(themeValueHex.Substring(2,3), NumberStyles.HexNumber);
+        // var blueValue = int.Parse(themeValueHex.Substring(4,5), NumberStyles.HexNumber);
+
+        return $"{color.R},{color.G},{color.B}";
+
     }
 
     // public void TintNotDefined(string rgbString, string themeName)
@@ -61,7 +78,6 @@ public class ConfigManager
     //                 continue;
     //             }
     //         }
-            
     //         if (rgbValueRegex.IsMatch(pref.Value))
     //             prefs[pref.Key] = rgbString;
     //     }
