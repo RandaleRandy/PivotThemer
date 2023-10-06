@@ -98,5 +98,265 @@
   {
     "themeIdentifier": "TertiarySurface",
     "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.INACTIVE_TAB_OUTLINE_COLOR"
+  },
+  {
+    "themeIdentifier": "SecondarySubtext",
+    "eclipseIdentifier": "COUNTER_COLOR"
+  },
+  {
+    "themeIdentifier": "SecondarySubtext",
+    "eclipseIdentifier": "DECORATIONS_COLOR"
+  },
+  {
+    "themeIdentifier": "SecondarySubtext",
+    "eclipseIdentifier": "QUALIFIER_COLOR"
+  },
+  {
+    "themeIdentifier": "UnfollowedLink",
+    "eclipseIdentifier": "com.sap.adt.abap.json.link"
+  },
+  {
+    "themeIdentifier": "Errors",
+    "eclipseIdentifier": "com.sap.adt.communication.ui.log.errorTextColorForeground"
+  },
+  {
+    "themeIdentifier": "Information",
+    "eclipseIdentifier": "com.sap.adt.datapreview.amdp.ui.readOnlyColor"
+  },
+  {
+    "themeIdentifier": "SecondaryOverlay",
+    "eclipseIdentifier": "com.sap.adt.profiler.ui.amdp.timeline.compile"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "com.sap.adt.profiler.ui.amdp.timeline.execution"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "com.sap.adt.profiler.ui.category.ABAP"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "com.sap.adt.profiler.ui.category.DB"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "com.sap.adt.profiler.ui.category.System"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "com.sap.adt.search.ui.writeAccess"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "com.sap.adt.transformation.ui.xmlProcessingInstruction"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "com.sap.adt.wda.colordefinition"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "com.sap.adt.wda.mapping.framework.mappingline"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "com.sap.adt.wda.mapping.framework.selectedmappingline"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_TEXT_COLOR"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.ACTIVE_TAB_BG_START"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.ACTIVE_TAB_TEXT_COLOR"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.INACTIVE_TAB_BG_END"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.INACTIVE_TAB_BG_START"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.INACTIVE_TAB_INNER_KEYLINE_COLOR"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.INACTIVE_TAB_OUTER_KEYLINE_COLOR"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.INACTIVE_TAB_TEXT_COLOR"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.INACTIVE_UNSELECTED_TABS_COLOR_END"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_dark.org.eclipse.ui.workbench.INACTIVE_UNSELECTED_TABS_COLOR_START"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.e4.ui.css.theme.e4_default.org.eclipse.ui.workbench.DARK_BACKGROUND"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.gef.color.button"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.gef.color.button.darker"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.gef.color.button.darkest"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.gef.color.button.lightest"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.gef.color.line.foreground"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.gef.color.list.background"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.gef.color.list.foreground"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.gef.color.list.hover.background"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.gef.color.list.selected.background"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.gef.color.menu.background"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.gef.color.menu.background.selected"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.gef.color.menu.foreground"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.gef.color.menu.foreground.selected"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.gef.color.title.background"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.gef.color.title.foreground"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.gef.color.title.gradient"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.gef.color.title.inactive.background"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.gef.color.title.inactive.foreground"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.gef.color.title.inactive.gradient"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.gef.color.tooltip.background"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.gef.color.tooltip.foreground"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.jdt.debug.ui.InDeadlockColor"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.jdt.debug.ui.LabeledObject"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.jdt.ui.ColoredLabels.match_highlight"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.jdt.ui.DeclarationView.backgroundColor"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.mylyn.tasks.ui.colors.foreground.completed"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.mylyn.tasks.ui.colors.foreground.overdue.for.others"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.mylyn.tasks.ui.colors.foreground.past.due"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.mylyn.tasks.ui.colors.foreground.today.completed"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.mylyn.tasks.ui.colors.incoming.background"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.ui.showkeys.backgroundColor"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.ui.showkeys.foregroundColor"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_TEXT_COLOR"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.ui.workbench.ACTIVE_TAB_BG_END"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.ui.workbench.ACTIVE_TAB_TEXT_COLOR"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.ui.workbench.INACTIVE_TAB_BG_END"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.ui.workbench.INACTIVE_TAB_BG_START"
+  },
+  {
+    "themeIdentifier": "Unknown",
+    "eclipseIdentifier": "org.eclipse.ui.workbench.INACTIVE_TAB_TEXT_COLOR"
   }
 ]

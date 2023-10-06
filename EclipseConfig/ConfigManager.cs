@@ -22,7 +22,7 @@ public class ConfigManager
         _themeToEclipseMappings = JsonSerializer.Deserialize<List<ThemeToEclipseMapping>>(mappingContent) ?? new List<ThemeToEclipseMapping>();
     }
 
-    public void SaveAllUndefined(){
+    public void SaveAllUndefined(bool fillWithUnknownColor = true){
         var rgbValueRegex = new Regex(@"[0-9]{1,3}\,[0-9]{1,3}\,[0-9]{1,3}", RegexOptions.Compiled);
         var prefs = _reader.Read();
         var undefinedValues = new List<ThemeToEclipseMapping>();
@@ -36,7 +36,7 @@ public class ConfigManager
                 continue;
             if (rgbValueRegex.IsMatch(pref.Value)){
                 // undefined rgb configuration value found
-                undefinedValues.Add(new (){ eclipseIdentifier = pref.Key, themeIdentifier = string.Empty });
+                undefinedValues.Add(new (){ eclipseIdentifier = pref.Key, themeIdentifier = fillWithUnknownColor ? "Unknown" : string.Empty });
             }
         }
         _writer.WriteToConfigurationFolder(undefinedValues);
@@ -74,7 +74,11 @@ public class ConfigManager
 
     private static string ConvertHexToRgbString(string themeValueHex)
     {
+        if(string.IsNullOrEmpty(themeValueHex))
+            return "0,0,0";
         var color = ColorTranslator.FromHtml(themeValueHex);
+        if(color.IsEmpty)
+            throw new Exception($"Color '{themeValueHex}' cannot be converted");
         return $"{color.R},{color.G},{color.B}";
 
     }

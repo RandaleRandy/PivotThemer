@@ -25,5 +25,6 @@
   "LinkHover" : "",
   "Errors" : "",
   "Warnings" : "",
-  "Information" : ""
+  "Information" : "",
+  "Unknown": "#AA33AA"
 }

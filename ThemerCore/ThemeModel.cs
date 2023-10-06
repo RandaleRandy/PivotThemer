@@ -29,4 +29,5 @@ public class ThemeModel
     public string Errors { get; set; } = string.Empty;
     public string Warnings { get; set; } = string.Empty;
     public string Information { get; set; } = string.Empty;
+    public string Unknown {get; set;}  = string.Empty;
 }
