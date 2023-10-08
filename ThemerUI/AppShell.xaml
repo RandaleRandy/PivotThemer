@@ -6,12 +6,29 @@
     xmlns:local="clr-namespace:ThemerUI"
     Shell.FlyoutBehavior="Disabled">
 
-    <ShellContent
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <Tab Title="Domestic"
+             Icon="house.svg">
+            <ShellContent Title="Cats"
+                          Icon="house.svg"
+                          ContentTemplate="{DataTemplate local:MainPage}" />
+            <ShellContent Title="Dogs"
+                          Icon="dog.png"
+                          ContentTemplate="{DataTemplate local:MainPage}" />
+        </Tab>
+        <ShellContent
         Title="Home"
+        Icon="Resources\Icons\house.svg"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
-    <ShellContent
+        <ShellContent
         Title="Home2"
+            
+                          Icon="house.svg"
         ContentTemplate="{DataTemplate local:NewPage1}"
         Route="NewPage1" />
+    </FlyoutItem>
+
+
+
 </Shell>

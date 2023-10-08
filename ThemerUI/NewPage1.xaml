@@ -8,5 +8,7 @@
             Text="Welcome to .NET MAUI!"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+		
+		<Image Source="house.svg" />
     </VerticalStackLayout>
 </ContentPage>

@@ -13,7 +13,16 @@
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
                 HorizontalOptions="Center" />
+            <Image Source="/Icons/house.svg"
+                   HeightRequest="200"
+                    HorizontalOptions="Center"
+                   BackgroundColor="Green"/>
+
+            <Image Source="test.png"
+                   HeightRequest="200"
+                    HorizontalOptions="Center"/>
         </VerticalStackLayout>
+        
     </ScrollView>
 
 </ContentPage>
