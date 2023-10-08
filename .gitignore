@@ -5,6 +5,8 @@ riderModule.iml
 /_ReSharper.Caches/
 Locations.json
 .vs/
+.vs/*/
+.vs/*
 /.vs/
 /.vs/EclipseThemer/DesignTimeBuild/.dtbcache.v2
 /.vs/EclipseThemer/v17/.suo
