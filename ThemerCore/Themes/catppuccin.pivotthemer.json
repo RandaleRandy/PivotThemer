@@ -26,5 +26,6 @@
   "Errors" : "",
   "Warnings" : "",
   "Information" : "",
-  "Unknown": "#AA33AA"
+  "Unknown": "#AA33AA",
+  "FontName": "JetBrainsMono Nerd Font"
 }

@@ -30,4 +30,5 @@ public class ThemeModel
     public string Warnings { get; set; } = string.Empty;
     public string Information { get; set; } = string.Empty;
     public string Unknown {get; set;}  = string.Empty;
+    public string FontName {get; set;} = string.Empty;
 }
